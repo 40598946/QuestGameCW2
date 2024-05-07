@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Quest for the Crystal Kingdom</title>
+
+  <style>
+    body {
+      background-image: url('BackgroundAI.jpeg');
+    }
+
+    /* Logo styles */
+    .logo {
+      width: 200px; /* Adjust size as needed */
+      height: auto;
+      margin-bottom: 30px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <audio autoplay>
+    <source src="music1.mp3" type="audio/mpeg">
+  </audio>
+
+  
+
+  <div class="container">
+    <img src="QuestLogo.png" alt="Logo" class="logo">
+    <button class="start-button" onclick="window.location.href='gamepage2.html'">Start</button>
+    <a href="#" class="help-button" onclick="showHelp()">Help</a>
+  </div>
+
+  <script>
+    function startGame() {
+      // Add code to start the game
+      console.log("Game started");
+    }
+
+    function showHelp() {
+      // Add code to show help information
+      alert("Welcome to The Quest for the Crystal Kingdom. Explore the village, gather clues, and embark on an adventure to uncover the secrets of the Crystal Kingdom. Click the Start button to begin your journey!");
+    }
+  </script>
+</body>
+</html>

@@ -1,2 +1,2 @@
-# QuestGameCW2
-a short text based adventure game
+# QuestGame
+Web Technologies Part 2 - Quest 
